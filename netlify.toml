@@ -5,13 +5,16 @@
   from = "/dashboard"
   to = "/index.html"
   status = 200
+  force = true
 
 [[redirects]]
-  from = "/dashboard/*"
+  from = "/dashboard/"
   to = "/index.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/admin"
   to = "/index.html"
   status = 200
+  force = true
